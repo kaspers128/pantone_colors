@@ -1,0 +1,48 @@
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #000;
+
+    tr{
+        border: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    th{
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        padding: 8px 16px 8px 8px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        &:not(.text-right){
+            text-align: left;
+        }
+
+        input {
+            display: inline-block;
+            margin-right: 4px;
+            width: 12px;
+            height: 12px;
+            cursor: pointer;
+        }
+
+        label{
+            cursor: pointer;
+        }
+    }
+
+    td {
+        font-size: 16px;
+        line-height: 21px;
+        padding: 16px 16px 16px 8px;
+
+        .color {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+            margin-right: 4px;
+        }
+    }
+}

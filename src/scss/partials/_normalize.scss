@@ -1,0 +1,15 @@
+$ff: 'Segoe UI', Helvetica, arial, sans-serif;
+$fz: 16px;
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    font-family: $ff;
+    font-size: $fz;
+}
